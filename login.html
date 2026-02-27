@@ -15,6 +15,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <script>
+        (function () {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+        })();
+    </script>
 </head>
 
 <body class="auth-body position-relative">
@@ -22,6 +28,10 @@
     <a href="index.html" class="btn-back-pill shadow-sm">
         <i class="bi bi-arrow-left me-2"></i> Back to Home
     </a>
+
+    <button id="themeToggle" class="btn-theme-pill shadow-sm">
+        <i class="bi bi-moon-fill"></i>
+    </button>
 
     <div class="container">
         <div class="row min-vh-100 align-items-center justify-content-center">

@@ -664,6 +664,52 @@ body {
     color: #ffffff !important;
 }
 
+.btn-theme-pill {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+    background: #1a1a1a !important;
+    color: #ffffff !important;
+    border-radius: 50px !important;
+    padding: 10px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.btn-theme-pill:hover {
+    transform: scale(1.1);
+    background: #000000 !important;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .auth-card {
+    background: #2a2a40 !important;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4) !important;
+}
+
+[data-theme="dark"] .auth-title {
+    color: #ffffff !important;
+}
+
+[data-theme="dark"] label.muted {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+[data-theme="dark"] .input-with-icon .form-control {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    color: #ffffff !important;
+}
+
 /* Animations */
 .fade-in {
     animation: fadeIn 1s ease-in-out;
