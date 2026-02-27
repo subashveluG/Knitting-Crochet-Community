@@ -121,6 +121,10 @@ body {
     background-image: url('../images/contact_hero_bg.png');
 }
 
+.hero-shop {
+    background-image: url('../images/shop_hero_bg.png');
+}
+
 .hero-overlay {
     position: absolute;
     top: 0;
