@@ -556,7 +556,7 @@ body {
 .auth-card {
     border-radius: 20px !important;
     background: #ffffff;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08), 0 0 20px rgba(228, 64, 95, 0.05) !important;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08), 0 0 20px rgba(74, 78, 105, 0.05) !important;
     border: none !important;
     transition: var(--transition);
 }
@@ -566,7 +566,7 @@ body {
 }
 
 .auth-title {
-    color: #333;
+    color: var(--primary-color);
     font-size: 1.75rem;
     margin-bottom: 0.5rem;
 }
