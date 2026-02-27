@@ -113,6 +113,14 @@ body {
     z-index: 1;
 }
 
+.hero-faq {
+    background-image: url('../images/faq_hero_bg.png');
+}
+
+.hero-contact {
+    background-image: url('../images/contact_hero_bg.png');
+}
+
 .hero-overlay {
     position: absolute;
     top: 0;
