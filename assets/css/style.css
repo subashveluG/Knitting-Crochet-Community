@@ -43,11 +43,31 @@
 }
 
 [data-theme="dark"] .text-dark {
-    color: #f8f9fa !important;
+    color: #ffffff !important;
 }
 
 [data-theme="dark"] .text-light {
     color: #22223b !important;
+}
+
+/* EMERGENCY CONTRAST OVERRIDES */
+[data-theme="dark"] .text-muted,
+[data-theme="dark"] .small.text-muted,
+[data-theme="dark"] .text-muted span,
+[data-theme="dark"] .form-check-label {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+[data-theme="dark"] h6.text-muted {
+    color: #ffffff !important;
+    font-weight: 800 !important;
+    opacity: 1 !important;
+}
+
+[data-theme="dark"] .card {
+    background-color: #2a2a40 !important;
+    /* Slightly lighter than background for separation */
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
 }
 
 body {
