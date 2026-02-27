@@ -17,6 +17,27 @@
     /* Slightly darker depth */
     --text-main: #f8f9fa;
     /* Pure white/near-white for max contrast */
+    --text-muted: rgba(255, 255, 255, 0.6);
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+[data-theme="dark"] .text-muted {
+    color: var(--text-muted) !important;
+}
+
+/* Specific Filter Sidebar Contrast */
+.card h6.text-muted {
+    letter-spacing: 0.05rem;
+    color: var(--primary-color) !important;
+    opacity: 0.8;
+}
+
+[data-theme="dark"] .card h6.text-muted {
+    color: var(--secondary-color) !important;
+    opacity: 1;
 }
 
 body {
