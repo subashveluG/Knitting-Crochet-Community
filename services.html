@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Stitch & Loop</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header (Same as index) -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center fw-800 text-primary" href="index.html">
+                <i class="bi bi-patch-check-fill me-2 fs-3"></i>
+                <span>STITCH & LOOP</span>
+            </a>
+
+            <div class="d-flex align-items-center order-lg-last">
+                <button class="btn btn-link text-primary me-2" id="themeToggle">
+                    <i class="bi bi-moon-fill fs-5"></i>
+                </button>
+                <div class="d-none d-lg-flex">
+                    <a href="login.html" class="btn btn-outline-primary me-2">Login</a>
+                    <a href="signup.html" class="btn btn-primary">Signup</a>
+                </div>
+                <button class="navbar-toggler ms-2" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#mobileMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="home2.html">Home 2</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu (Offcanvas) -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu">
+        <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title text-primary fw-bold">STITCH & LOOP</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav flex-column gap-3 mb-4 fw-semibold">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.html#community">Community</a></li>
+                <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+            </ul>
+            <div class="d-grid gap-2">
+                <a href="login.html" class="btn btn-outline-primary">Login</a>
+                <a href="signup.html" class="btn btn-primary">Signup</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Header (Hero) -->
+    <section class="section-py bg-tertiary overflow-hidden reveal">
+        <div class="container py-lg-5">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 fade-in text-center text-lg-start">
+                    <h1 class="display-4 fw-bold mb-3">Our Services & <span class="text-secondary">Workshops</span></h1>
+                    <p class="lead opacity-75 mb-4">Explore our range of professional guidance,
+                        curated materials, and community-driven events.</p>
+                    <a href="signup.html" class="btn btn-primary btn-lg px-4">Early Access</a>
+                </div>
+                <div class="col-lg-6 fade-in">
+                    <img src="assets/images/services_hero.png" class="img-fluid rounded-4 shadow-lg"
+                        alt="Services Hero">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="section-py reveal">
+        <div class="container py-lg-5">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 mb-4 reveal delay-1">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden text-center service-card hover-lift">
+                        <div class="service-img-container overflow-hidden">
+                            <img src="assets/images/service_patterns.png" class="img-fluid service-img"
+                                alt="Premium Patterns">
+                        </div>
+                        <div class="p-4 d-flex flex-column h-100">
+                            <h5 class="fw-bold">Premium Patterns</h5>
+                            <p class="small opacity-75">Access to over 1000+ exclusive knitting and crochet patterns
+                                curated by masters.</p>
+                            <a href="#" class="btn btn-outline-primary mt-auto">Browse Library</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 reveal delay-2">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden text-center service-card hover-lift">
+                        <div class="service-img-container overflow-hidden">
+                            <img src="assets/images/blog_tension.png" class="img-fluid service-img" alt="Video Courses">
+                        </div>
+                        <div class="p-4 d-flex flex-column h-100">
+                            <h5 class="fw-bold">HD Video Courses</h5>
+                            <p class="small opacity-75">Step-by-step video tutorials for all skill levels, updated
+                                weekly.</p>
+                            <a href="#" class="btn btn-outline-primary mt-auto">Start Learning</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 reveal delay-3">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden text-center service-card hover-lift">
+                        <div class="service-img-container overflow-hidden">
+                            <img src="assets/images/about_hero.png" class="img-fluid service-img" alt="Group Workshops">
+                        </div>
+                        <div class="p-4 d-flex flex-column h-100">
+                            <h5 class="fw-bold">Live Workshops</h5>
+                            <p class="small opacity-75">Join interactive live sessions with real-time feedback from
+                                experts.</p>
+                            <a href="#" class="btn btn-outline-primary mt-auto">Book Session</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 reveal">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden text-center service-card hover-lift">
+                        <div class="service-img-container overflow-hidden">
+                            <img src="assets/images/product_merino.png" class="img-fluid service-img" alt="Yarn Kits">
+                        </div>
+                        <div class="p-4 d-flex flex-column h-100">
+                            <h5 class="fw-bold">Curated Yarn Kits</h5>
+                            <p class="small opacity-75">Everything you need for your next masterpiece, delivered to your
+                                door.</p>
+                            <a href="#" class="btn btn-outline-primary mt-auto">Shop Kits</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Row 2 -->
+                <div class="col-lg-3 col-md-6 mb-4 reveal delay-1">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden text-center service-card hover-lift">
+                        <div class="service-img-container overflow-hidden">
+                            <img src="assets/images/gallery_lace.png" class="img-fluid service-img"
+                                alt="1-on-1 Mentoring">
+                        </div>
+                        <div class="p-4 d-flex flex-column h-100">
+                            <h5 class="fw-bold">Expert Mentoring</h5>
+                            <p class="small opacity-75">Personalized 1-on-1 sessions to master complex techniques and
+                                patterns.</p>
+                            <a href="#" class="btn btn-outline-primary mt-auto">Find Mentor</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 reveal delay-2">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden text-center service-card hover-lift">
+                        <div class="service-img-container overflow-hidden">
+                            <img src="assets/images/blog_shawl.png" class="img-fluid service-img" alt="Local Pop-ups">
+                        </div>
+                        <div class="p-4 d-flex flex-column h-100">
+                            <h5 class="fw-bold">Regional Meetups</h5>
+                            <p class="small opacity-75">Exclusive in-person events at local craft chapters and studios
+                                worldwide.</p>
+                            <a href="#" class="btn btn-outline-primary mt-auto">Join Meetup</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 reveal delay-3">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden text-center service-card hover-lift">
+                        <div class="service-img-container overflow-hidden">
+                            <img src="assets/images/product_cotton.png" class="img-fluid service-img"
+                                alt="Color Consulting">
+                        </div>
+                        <div class="p-4 d-flex flex-column h-100">
+                            <h5 class="fw-bold">Color Analysis</h5>
+                            <p class="small opacity-75">Expert help in choosing the perfect yarn palette for your
+                                specific project.</p>
+                            <a href="#" class="btn btn-outline-primary mt-auto">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 reveal">
+                    <div class="card h-100 border-0 shadow-sm overflow-hidden text-center service-card hover-lift">
+                        <div class="service-img-container overflow-hidden">
+                            <img src="assets/images/gallery_fox.png" class="img-fluid service-img" alt="Certification">
+                        </div>
+                        <div class="p-4 d-flex flex-column h-100">
+                            <h5 class="fw-bold">Accreditation</h5>
+                            <p class="small opacity-75">Get certified as a Stitch & Loop accredited master instructor.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary mt-auto">Get Certified</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Same as index) -->
+    <footer class="footer py-5 mt-auto">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <a class="navbar-brand d-flex align-items-center fw-bold text-white mb-3" href="index.html">
+                        <i class="bi bi-patch-check-fill me-2"></i>
+                        STITCH & LOOP
+                    </a>
+                    <p class="small opacity-75">Empowering crafters through education and community since 2026. Join our
+                        global mission to keep the heritage alive.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 ps-lg-5">
+                    <h6 class="fw-bold mb-4">Company</h6>
+                    <ul class="list-unstyled small d-grid gap-2">
+                        <li><a href="#" class="text-white text-decoration-none opacity-75">About Us</a></li>
+                        <li><a href="#" class="text-white text-decoration-none opacity-75">Our Team</a></li>
+                        <li><a href="#" class="text-white text-decoration-none opacity-75">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 ps-lg-5">
+                    <h6 class="fw-bold mb-4">Support</h6>
+                    <ul class="list-unstyled small d-grid gap-2">
+                        <li><a href="#" class="text-white text-decoration-none opacity-75">Help Center</a></li>
+                        <li><a href="#" class="text-white text-decoration-none opacity-75">Terms of Service</a></li>
+                        <li><a href="#" class="text-white text-decoration-none opacity-75">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold mb-4">Newsletter</h6>
+                    <form>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter email">
+                            <button class="btn btn-secondary" type="submit">Join</button>
+                        </div>
+                    </form>
+                    <div class="mt-4 fs-4 d-flex gap-3 social-icons">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-twitter-x"></i>
+                        <i class="bi bi-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-5 opacity-25">
+            <div class="text-center small opacity-75">
+                © 2026 Stitch & Loop Community. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <a href="#" class="btn btn-primary back-to-top rounded-circle p-3">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

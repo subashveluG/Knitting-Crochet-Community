@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Knitting & Crochet Community</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center fw-800 text-primary" href="index.html">
+                <i class="bi bi-patch-check-fill me-2 fs-3"></i>
+                <span>STITCH & LOOP</span>
+            </a>
+
+            <div class="d-flex align-items-center order-lg-last">
+                <button class="btn btn-link text-primary me-2" id="themeToggle">
+                    <i class="bi bi-moon-fill fs-5"></i>
+                </button>
+                <div class="d-none d-lg-flex">
+                    <a href="login.html" class="btn btn-outline-primary me-2">Login</a>
+                    <a href="signup.html" class="btn btn-primary">Signup</a>
+                </div>
+                <button class="navbar-toggler ms-2" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#mobileMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="home2.html">Home 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu (Offcanvas) -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu">
+        <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title text-primary fw-bold">STITCH & LOOP</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav flex-column gap-3 mb-4 fw-semibold">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home 1</a></li>
+                <li class="nav-item"><a class="nav-link" href="home2.html">Home 2</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link active" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+            </ul>
+            <div class="d-grid gap-2">
+                <a href="login.html" class="btn btn-outline-primary">Login</a>
+                <a href="signup.html" class="btn btn-primary">Signup</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Hero Section -->
+    <section class="section-py bg-tertiary reveal">
+        <div class="container py-lg-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h1 class="display-3 fw-bold mb-4 text-primary">Crafting <span
+                            class="text-secondary">Connection</span> Since 2026.</h1>
+                    <p class="lead mb-4 opacity-75">What started as a small local meetup has grown into a global
+                        movement of millions. We believe that every stich tells a story, and every loop brings us closer
+                        together.</p>
+                    <div class="mt-4 fs-4 d-flex gap-3 social-icons">
+                        <a href="#story" class="btn btn-primary px-4 shadow">Our Story</a>
+                        <a href="signup.html" class="btn btn-outline-primary px-4">Join Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="assets/images/about_hero.png" alt="About Stitch & Loop"
+                        class="img-fluid rounded-4 shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="section-py reveal" id="story">
+        <div class="container py-lg-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 order-lg-last">
+                    <h2 class="display-5 fw-bold mb-4">Our Mission</h2>
+                    <p class="opacity-75 mb-4">At Stitch & Loop, our mission is to empower crafters of all skill levels
+                        through education, inspiration, and community. We believe that knitting and crochet are not just
+                        hobbies—they are powerful tools for mental well-being, sustainability, and creative expression.
+                    </p>
+                    <div class="row g-4">
+                        <div class="col-6">
+                            <div class="p-3 rounded-3 border border-light-subtle h-100 stat-card-lite hover-lift">
+                                <h4 class="fw-bold text-primary mb-2">5M+</h4>
+                                <p class="small opacity-75 mb-0">Global Members</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-3 rounded-3 border border-light-subtle h-100 stat-card-lite hover-lift">
+                                <h4 class="fw-bold text-primary mb-2">200+</h4>
+                                <p class="small opacity-75 mb-0">Expert Instructors</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-3 rounded-3 border border-light-subtle h-100 stat-card-lite hover-lift">
+                                <h4 class="fw-bold text-primary mb-2">50+</h4>
+                                <p class="small opacity-75 mb-0">Global Cities</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="p-3 rounded-3 border border-light-subtle h-100 stat-card-lite hover-lift">
+                                <h4 class="fw-bold text-primary mb-2">10k+</h4>
+                                <p class="small opacity-75 mb-0">Daily Patterns</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-4">
+                        <div class="col-6">
+                            <div class="overflow-hidden rounded-4 shadow-sm mission-img-container shadow-hover">
+                                <img src="https://images.unsplash.com/photo-1590494165264-1ebe3602eb80?auto=format&fit=crop&q=80&w=600&h=800"
+                                    alt="Craft Detail" class="w-100 h-100 object-fit-cover hover-lift">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="overflow-hidden rounded-4 shadow-sm mission-img-container shadow-hover">
+                                <img src="https://images.unsplash.com/photo-1516733725897-1aa73b87c8e8?auto=format&fit=crop&q=80&w=600&h=800"
+                                    alt="Craft Workshop" class="w-100 h-100 object-fit-cover hover-lift">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="section-py bg-tertiary reveal">
+        <div class="container py-lg-5">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Meet the Makers</h2>
+                <p class="opacity-75">The passionate team behind the biggest crafting community in the world.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-3 reveal delay-1">
+                    <div class="card border-0 shadow-sm text-center p-4 h-100 hover-lift">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200"
+                            alt="Elena Rivera" class="rounded-circle mx-auto mb-3"
+                            style="width: 100px; height: 100px; object-fit: cover;">
+                        <h5 class="fw-bold mb-1">Elena Rivera</h5>
+                        <p class="small text-secondary mb-3">Founder & Master Artisan</p>
+                        <p class="small opacity-75 mb-3">A third-generation knitter with a vision to archive global
+                            heritage patterns through community education.</p>
+                        <div class="d-flex justify-content-center gap-2 mt-auto">
+                            <a href="#" class="text-primary"><i class="bi bi-linkedin"></i></a>
+                            <a href="#" class="text-primary"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 reveal delay-2">
+                    <div class="card border-0 shadow-sm text-center p-4 h-100 hover-lift">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
+                            alt="Marcus Chen" class="rounded-circle mx-auto mb-3"
+                            style="width: 100px; height: 100px; object-fit: cover;">
+                        <h5 class="fw-bold mb-1">Marcus Chen</h5>
+                        <p class="small text-secondary mb-3">Community Strategist</p>
+                        <p class="small opacity-75 mb-3">Expert in digital ecosystem design, focused on fostering
+                            authentic connections between local chapters.</p>
+                        <div class="d-flex justify-content-center gap-2 mt-auto">
+                            <a href="#" class="text-primary"><i class="bi bi-linkedin"></i></a>
+                            <a href="#" class="text-primary"><i class="bi bi-twitter-x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 reveal delay-3">
+                    <div class="card border-0 shadow-sm text-center p-4 h-100 hover-lift">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200"
+                            alt="Sarah Jenkins" class="rounded-circle mx-auto mb-3"
+                            style="width: 100px; height: 100px; object-fit: cover;">
+                        <h5 class="fw-bold mb-1">Sarah Jenkins</h5>
+                        <p class="small text-secondary mb-3">Lead Product Designer</p>
+                        <p class="small opacity-75 mb-3">Bridging the gap between traditional aesthetics and modern UI
+                            to create a seamless marketplace experience.</p>
+                        <div class="d-flex justify-content-center gap-2 mt-auto">
+                            <a href="#" class="text-primary"><i class="bi bi-linkedin"></i></a>
+                            <a href="#" class="text-primary"><i class="bi bi-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 reveal">
+                    <div class="card border-0 shadow-sm text-center p-4 h-100 hover-lift">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200"
+                            alt="David Okafor" class="rounded-circle mx-auto mb-3"
+                            style="width: 100px; height: 100px; object-fit: cover;">
+                        <h5 class="fw-bold mb-1">David Okafor</h5>
+                        <p class="small text-secondary mb-3">Partnerships Lead</p>
+                        <p class="small opacity-75 mb-3">Connecting ethically sourced yarn producers with our global
+                            network of passionate fiber artists.</p>
+                        <div class="d-flex justify-content-center gap-2 mt-auto">
+                            <a href="#" class="text-primary"><i class="bi bi-linkedin"></i></a>
+                            <a href="#" class="text-primary"><i class="bi bi-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 bg-primary text-white text-center">
+        <div class="container py-lg-4">
+            <h2 class="display-6 fw-bold mb-4">Ready to Start Your Journey?</h2>
+            <p class="lead mb-5 opacity-75">Join our global circle and discover the joy of crafting together.</p>
+            <a href="signup.html" class="btn btn-light btn-lg px-5">Get Started for Free</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5 mt-auto">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <a class="navbar-brand d-flex align-items-center fw-bold text-white mb-3" href="index.html">
+                        <i class="bi bi-patch-check-fill me-2"></i>
+                        STITCH & LOOP
+                    </a>
+                    <p class="small opacity-75">Empowering crafters through education and community since 2026. Join our
+                        global mission to keep the heritage alive.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 ps-lg-5">
+                    <h6 class="fw-bold mb-4">Company</h6>
+                    <ul class="list-unstyled small d-grid gap-2">
+                        <li><a href="about.html" class="text-white text-decoration-none opacity-75">About Us</a></li>
+                        <li><a href="#" class="text-white text-decoration-none opacity-75">Our Team</a></li>
+                        <li><a href="#" class="text-white text-decoration-none opacity-75">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 ps-lg-5">
+                    <h6 class="fw-bold mb-4">Support</h6>
+                    <ul class="list-unstyled small d-grid gap-2">
+                        <li><a href="#" class="text-white text-decoration-none opacity-75">Help Center</a></li>
+                        <li><a href="#" class="text-white text-decoration-none opacity-75">Terms of Service</a></li>
+                        <li><a href="#" class="text-white text-decoration-none opacity-75">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold mb-4">Newsletter</h6>
+                    <form>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter email">
+                            <button class="btn btn-secondary" type="submit">Join</button>
+                        </div>
+                        <div class="mt-4 fs-4 d-flex gap-3 social-icons">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-twitter-x"></i>
+                            <i class="bi bi-youtube"></i>
+                        </div>
+                </div>
+            </div>
+            <hr class="my-5 opacity-25">
+            <div class="text-center small opacity-75">
+                © 2026 Stitch & Loop Community. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <a href="#" class="btn btn-primary back-to-top rounded-circle p-3">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
