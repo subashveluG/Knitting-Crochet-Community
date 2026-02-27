@@ -760,6 +760,11 @@ body {
     color: #ffffff !important;
 }
 
+[data-theme="dark"] .form-select option {
+    background-color: #1a1a2e !important;
+    color: #ffffff !important;
+}
+
 [data-theme="dark"] .form-floating>label,
 [data-theme="dark"] .form-floating>label::after {
     color: rgba(255, 255, 255, 0.8) !important;
