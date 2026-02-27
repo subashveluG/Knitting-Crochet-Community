@@ -597,6 +597,15 @@ body {
     transition: all 0.3s ease !important;
 }
 
+[data-theme="dark"] .card h1,
+[data-theme="dark"] .card h2,
+[data-theme="dark"] .card h3,
+[data-theme="dark"] .card h4,
+[data-theme="dark"] .card h5,
+[data-theme="dark"] .card h6 {
+    color: #ffffff !important;
+}
+
 .btn-social-outline:hover {
     background: #fff !important;
     border-color: var(--primary-color) !important;
@@ -741,6 +750,35 @@ body {
     background: rgba(255, 255, 255, 0.05) !important;
     border-color: var(--primary-color) !important;
     color: var(--primary-color) !important;
+}
+
+/* Site-wide Form Contrast Overrides */
+[data-theme="dark"] .form-control,
+[data-theme="dark"] .form-select {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border-color: rgba(255, 255, 255, 0.15) !important;
+    color: #ffffff !important;
+}
+
+[data-theme="dark"] .form-control::placeholder {
+    color: rgba(255, 255, 255, 0.4) !important;
+}
+
+[data-theme="dark"] .form-floating>label {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+[data-theme="dark"] .form-floating>.form-control:focus~label,
+[data-theme="dark"] .form-floating>.form-control:not(:placeholder-shown)~label,
+[data-theme="dark"] .form-floating>.form-select~label {
+    color: var(--primary-color) !important;
+    opacity: 1 !important;
+}
+
+[data-theme="dark"] .card h2,
+[data-theme="dark"] .card h3,
+[data-theme="dark"] .card h4 {
+    color: #ffffff !important;
 }
 
 /* Animations */
