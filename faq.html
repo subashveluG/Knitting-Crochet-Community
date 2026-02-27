@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ | Stitch & Loop</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center fw-800 text-primary" href="index.html">
+                <i class="bi bi-patch-check-fill me-2 fs-3"></i>
+                <span>STITCH & LOOP</span>
+            </a>
+
+            <div class="d-flex align-items-center order-lg-last">
+                <button class="btn btn-link text-primary me-2" id="themeToggle">
+                    <i class="bi bi-moon-fill fs-5"></i>
+                </button>
+                <div class="d-none d-lg-flex">
+                    <a href="login.html" class="btn btn-outline-primary me-2">Login</a>
+                    <a href="signup.html" class="btn btn-primary">Signup</a>
+                </div>
+                <button class="navbar-toggler ms-2" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#mobileMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu (Offcanvas) -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu">
+        <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title text-primary fw-bold">STITCH & LOOP</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav flex-column gap-3 mb-4 fw-semibold">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link active" href="faq.html">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="d-grid gap-2">
+                <a href="login.html" class="btn btn-outline-primary">Login</a>
+                <a href="signup.html" class="btn btn-primary">Signup</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ Hero -->
+    <section class="section-py bg-tertiary reveal">
+        <div class="container text-center py-lg-5">
+            <h1 class="display-3 fw-bold mb-4 text-primary">Frequently Asked <span
+                    class="text-secondary">Questions</span></h1>
+            <p class="lead mb-0 opacity-75 mx-auto" style="max-width: 700px;">Everything you need to know about the
+                Stitch & Loop community, marketplace, and membership.</p>
+        </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section class="section-py">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion accordion-flush" id="faqAccordion">
+                        <!-- Community Section -->
+                        <div class="mb-5 reveal">
+                            <h3 class="fw-bold mb-4 d-flex align-items-center">
+                                <i class="bi bi-people-fill text-primary me-3"></i> Community & Membership
+                            </h3>
+                            <div class="accordion-item mb-3 stats-card-lite shadow-sm rounded-4 border">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold rounded-4" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                        Is the community free to join?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body opacity-75">
+                                        Yes! Joining the basic Stitch & Loop community is completely free. You can
+                                        create a profile, participate in forums, and access thousands of
+                                        community-shared patterns. We also offer a Premium Membership for those looking
+                                        for expert workshops and exclusive commercial patterns.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3 stats-card-lite shadow-sm rounded-4 border">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold rounded-4" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                        How do I find local crafting chapters?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body opacity-75">
+                                        Once you're logged into your dashboard, you can use our "Chapters" explorer to
+                                        find groups in your city. If there isn't one nearby, we provide tools and
+                                        support for you to start your own local group!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Marketplace Section -->
+                        <div class="mb-5 reveal delay-1">
+                            <h3 class="fw-bold mb-4 d-flex align-items-center">
+                                <i class="bi bi-shop text-primary me-3"></i> Marketplace & Shipping
+                            </h3>
+                            <div class="accordion-item mb-3 stats-card-lite shadow-sm rounded-4 border">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold rounded-4" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                        Where do you ship your kits and yarns?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body opacity-75">
+                                        We ship globally to over 50 countries. Our logistics network ensures that
+                                        ethically sourced yarns and premium tools reach your doorstep within 5-10
+                                        business days depending on your location.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3 stats-card-lite shadow-sm rounded-4 border">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold rounded-4" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                                        Can I sell my own creations on the marketplace?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body opacity-75">
+                                        Absolutely! Artisan verification is required to open a shop. This ensures the
+                                        high quality our community expects. Once verified, you can list your finished
+                                        products or original patterns for sale.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Technical Section -->
+                        <div class="reveal delay-2">
+                            <h3 class="fw-bold mb-4 d-flex align-items-center">
+                                <i class="bi bi-gear-fill text-primary me-3"></i> Technical Support
+                            </h3>
+                            <div class="accordion-item mb-3 stats-card-lite shadow-sm rounded-4 border">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold rounded-4" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                                        Does the app work offline?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse"
+                                    data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body opacity-75">
+                                        Your pattern library and saved workshops are available for offline viewing once
+                                        downloaded to the mobile app, allowing you to craft anywhere, even without a
+                                        connection.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support CTA -->
+    <section class="py-5 bg-primary text-white text-center reveal">
+        <div class="container py-lg-4">
+            <h2 class="display-6 fw-bold mb-4">Still have questions?</h2>
+            <p class="lead mb-5 opacity-75">Our support team and community moderators are here to help you 24/7.</p>
+            <a href="contact.html" class="btn btn-light btn-lg px-5">Contact Support</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5 mt-auto">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <a class="navbar-brand d-flex align-items-center fw-bold text-white mb-3" href="index.html">
+                        <i class="bi bi-patch-check-fill me-2"></i>
+                        STITCH & LOOP
+                    </a>
+                    <p class="small opacity-75">Empowering crafters through education and community since 2026. Join our
+                        global mission to keep the heritage alive.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 ps-lg-5">
+                    <h6 class="fw-bold mb-4">Discovery</h6>
+                    <ul class="list-unstyled small d-grid gap-2">
+                        <li><a href="shop.html" class="text-white text-decoration-none opacity-75">Marketplace</a></li>
+                        <li><a href="faq.html" class="text-white text-decoration-none opacity-75">Common Questions</a>
+                        </li>
+                        <li><a href="services.html" class="text-white text-decoration-none opacity-75">Our Services</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 ps-lg-5">
+                    <h6 class="fw-bold mb-4">Support</h6>
+                    <ul class="list-unstyled small d-grid gap-2">
+                        <li><a href="contact.html" class="text-white text-decoration-none opacity-75">Contact Us</a>
+                        </li>
+                        <li><a href="#" class="text-white text-decoration-none opacity-75">Help Center</a></li>
+                        <li><a href="#" class="text-white text-decoration-none opacity-75">Artisan Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold mb-4">Newsletter</h6>
+                    <form>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter email">
+                            <button class="btn btn-secondary" type="submit">Join</button>
+                        </div>
+                    </form>
+                    <div class="mt-4 fs-4 d-flex gap-3 social-icons">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-twitter-x"></i>
+                        <i class="bi bi-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-5 opacity-25">
+            <div class="text-center small opacity-75">
+                © 2026 Stitch & Loop Community. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <a href="#" class="btn btn-primary back-to-top rounded-circle p-3">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
