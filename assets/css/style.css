@@ -760,12 +760,10 @@ body {
     color: #ffffff !important;
 }
 
-[data-theme="dark"] .form-control::placeholder {
-    color: rgba(255, 255, 255, 0.4) !important;
-}
-
-[data-theme="dark"] .form-floating>label {
-    color: rgba(255, 255, 255, 0.6) !important;
+[data-theme="dark"] .form-floating>label,
+[data-theme="dark"] .form-floating>label::after {
+    color: rgba(255, 255, 255, 0.8) !important;
+    background-color: transparent !important;
 }
 
 [data-theme="dark"] .form-floating>.form-control:focus~label,
@@ -774,17 +772,11 @@ body {
     color: #ffffff !important;
     opacity: 1 !important;
     font-weight: 700 !important;
-    transform: scale(0.85) translateY(-0.75rem) translateX(0.15rem) !important;
+    background-color: transparent !important;
 }
 
-[data-theme="dark"] .form-control:focus {
-    background-color: rgba(255, 255, 255, 0.12) !important;
-    color: #ffffff !important;
-    border-color: var(--primary-color) !important;
-}
-
-[data-theme="dark"] .form-floating>label {
-    color: rgba(255, 255, 255, 0.85) !important;
+[data-theme="dark"] .form-control::placeholder {
+    color: transparent !important;
 }
 
 [data-theme="dark"] .card h2,
