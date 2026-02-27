@@ -937,7 +937,16 @@ body {
 
 [data-theme="dark"] .accordion-button {
     background-color: rgba(255, 255, 255, 0.05) !important;
-    color: var(--text-main) !important;
+    color: #ffffff !important;
+}
+
+[data-theme="dark"] .accordion-body {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+[data-theme="dark"] section h2,
+[data-theme="dark"] section h3 {
+    color: #ffffff !important;
 }
 
 /* Trust Badges */
