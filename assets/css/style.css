@@ -771,8 +771,20 @@ body {
 [data-theme="dark"] .form-floating>.form-control:focus~label,
 [data-theme="dark"] .form-floating>.form-control:not(:placeholder-shown)~label,
 [data-theme="dark"] .form-floating>.form-select~label {
-    color: var(--primary-color) !important;
+    color: #ffffff !important;
     opacity: 1 !important;
+    font-weight: 700 !important;
+    transform: scale(0.85) translateY(-0.75rem) translateX(0.15rem) !important;
+}
+
+[data-theme="dark"] .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.12) !important;
+    color: #ffffff !important;
+    border-color: var(--primary-color) !important;
+}
+
+[data-theme="dark"] .form-floating>label {
+    color: rgba(255, 255, 255, 0.85) !important;
 }
 
 [data-theme="dark"] .card h2,
