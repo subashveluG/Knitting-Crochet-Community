@@ -1068,3 +1068,11 @@ body {
         height: 300px;
     }
 }
+/* Mobile Navbar Fix */
+@media (max-width: 991.98px) {
+    .navbar {
+        top: 0 !important;
+        position: sticky !important;
+        margin-top: 0 !important;
+    }
+}
